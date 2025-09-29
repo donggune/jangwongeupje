@@ -38,16 +38,18 @@
 
 				<!-- CTA 버튼들 -->
 				<div class="mb-16 flex flex-col justify-center gap-4 sm:flex-row">
-					<button
-						class="transform rounded-xl bg-red-600 px-8 py-4 text-lg font-semibold text-white shadow-lg transition-all duration-200 hover:scale-105 hover:bg-red-700 hover:shadow-xl"
+					<a
+						href="/agenda"
+						class="transform rounded-xl bg-red-600 px-8 py-4 text-lg font-semibold text-white shadow-lg transition-all duration-200 hover:scale-105 hover:bg-red-700 hover:shadow-xl text-center"
 					>
 						과제 둘러보기
-					</button>
-					<button
-						class="transform rounded-xl border-2 border-red-300 px-8 py-4 text-lg font-semibold text-red-700 transition-all duration-200 hover:scale-105 hover:border-red-600 hover:text-red-600"
+					</a>
+					<a
+						href="/about"
+						class="transform rounded-xl border-2 border-red-300 px-8 py-4 text-lg font-semibold text-red-700 transition-all duration-200 hover:scale-105 hover:border-red-600 hover:text-red-600 text-center"
 					>
 						과거제도 소개
-					</button>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -239,16 +241,18 @@
 				조선시대 선비가 되어 현대의 과제에 지혜로운 답을 제시해보세요
 			</p>
 			<div class="flex flex-col justify-center gap-4 sm:flex-row">
-				<button
-					class="transform rounded-xl bg-white px-8 py-4 text-lg font-semibold text-red-600 shadow-lg transition-all duration-200 hover:scale-105 hover:bg-gray-100"
+				<a
+					href="/auth/register"
+					class="transform rounded-xl bg-white px-8 py-4 text-lg font-semibold text-red-600 shadow-lg transition-all duration-200 hover:scale-105 hover:bg-gray-100 text-center"
 				>
 					선비 등록하기
-				</button>
-				<button
-					class="transform rounded-xl border-2 border-white px-8 py-4 text-lg font-semibold text-white transition-all duration-200 hover:scale-105 hover:bg-white hover:text-red-600"
+				</a>
+				<a
+					href="/agenda"
+					class="transform rounded-xl border-2 border-white px-8 py-4 text-lg font-semibold text-white transition-all duration-200 hover:scale-105 hover:bg-white hover:text-red-600 text-center"
 				>
 					과제 둘러보기
-				</button>
+				</a>
 			</div>
 		</div>
 	</section>
@@ -267,21 +271,21 @@
 				<div>
 					<h4 class="mb-4 font-semibold">과제 분야</h4>
 					<ul class="space-y-2 text-gray-400">
-						<li><a href="#" class="transition-colors hover:text-white">사회 정책</a></li>
-						<li><a href="#" class="transition-colors hover:text-white">환경 보전</a></li>
-						<li><a href="#" class="transition-colors hover:text-white">교육 개혁</a></li>
-						<li><a href="#" class="transition-colors hover:text-white">기술 혁신</a></li>
-						<li><a href="#" class="transition-colors hover:text-white">경제 발전</a></li>
-						<li><a href="#" class="transition-colors hover:text-white">문화 진흥</a></li>
+						<li><a href="/agenda?category=사회 정책" class="transition-colors hover:text-white">사회 정책</a></li>
+						<li><a href="/agenda?category=환경 보전" class="transition-colors hover:text-white">환경 보전</a></li>
+						<li><a href="/agenda?category=교육 개혁" class="transition-colors hover:text-white">교육 개혁</a></li>
+						<li><a href="/agenda?category=기술 혁신" class="transition-colors hover:text-white">기술 혁신</a></li>
+						<li><a href="/agenda?category=경제 발전" class="transition-colors hover:text-white">경제 발전</a></li>
+						<li><a href="/agenda?category=문화 진흥" class="transition-colors hover:text-white">문화 진흥</a></li>
 					</ul>
 				</div>
 				<div>
 					<h4 class="mb-4 font-semibold">과거제도 안내</h4>
 					<ul class="space-y-2 text-gray-400">
-						<li><a href="#" class="transition-colors hover:text-white">제도 소개</a></li>
-						<li><a href="#" class="transition-colors hover:text-white">응시 방법</a></li>
-						<li><a href="#" class="transition-colors hover:text-white">선비 예절</a></li>
-						<li><a href="#" class="transition-colors hover:text-white">문의하기</a></li>
+						<li><a href="/about" class="transition-colors hover:text-white">제도 소개</a></li>
+						<li><a href="/about#guide" class="transition-colors hover:text-white">응시 방법</a></li>
+						<li><a href="/about#etiquette" class="transition-colors hover:text-white">선비 예절</a></li>
+						<li><a href="/contact" class="transition-colors hover:text-white">문의하기</a></li>
 					</ul>
 				</div>
 			</div>
